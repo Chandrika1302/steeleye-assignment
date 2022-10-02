@@ -4,6 +4,7 @@ const List = memo(WrappedListComponent);
 ->whenever a state changes the wholecomponent re-renders.And not only the main component if there are any child components they also re-renders 
 -> Using memo will cause React to skip rendering a component if its props have not changed.
 ->so here whenever the state changes react renders the component except wrappedListComponent.
+->so here, in the list there are lot f simple lists present and with the help of this data will be fetched from somewhere and that is mapped and stored together
 
 
 
