@@ -14,7 +14,7 @@ const WrappedSingleListItem = ({
 }) => {
   return (
     <li
-    //if background colour is se
+    //if any of the list is selected then the background colour is turned into green otherwise red
       style={{ backgroundColor: isSelected ? 'green' : 'red'}}
       onClick={onClickHandler(index)}
     >
